@@ -89,7 +89,6 @@ a{
 
 /********************** HEADER STYLES START ************************/
 .site-header{
-    margin-bottom: 18px;
     padding-top: 43px;
     background-color: #F6F6F9;
     border-top: 4px solid #295093;
@@ -195,3 +194,11 @@ a{
     color: #515151;    
 }
 /********************** HEADER STYLES END ************************/
+
+/********************** ASIDE STYLES START ************************/
+.site-aside{
+    padding-top: 18px;
+    padding-bottom: 23px;
+    background-color: #F6F6F9;
+}
+/********************** ASIDE STYLES END ************************/
