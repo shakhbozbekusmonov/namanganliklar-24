@@ -197,8 +197,112 @@ a{
 
 /********************** ASIDE STYLES START ************************/
 .site-aside{
+    margin-bottom: 22px;
     padding-top: 18px;
     padding-bottom: 23px;
     background-color: #F6F6F9;
 }
 /********************** ASIDE STYLES END ************************/
+
+/********************** INFO STYLES START ************************/
+.covid-info__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+}
+
+.covid-info__item{
+    display: flex;
+    align-items: center;
+}
+
+.covid-info__item:not(:last-child)::after{
+    display: inline-block;
+    width: 2px;
+    height: 74px;
+    background-color: #EB5569;
+    content: "";
+}
+
+.covid-info__item:nth-child(2)::after{
+    height: 49px;
+    background-color: #F4CCD1;
+}
+
+.covid-info__item:nth-child(3)::after{
+    height: 49px;
+    background-color: #F4CCD1;
+}
+
+.covid-info__title{
+    display: flex;
+    width: 100%;
+    max-width: 290px;
+    margin-top: 0;
+    margin-right: 71px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.covid-info__title::before{
+    display: inline-block;
+    margin-right: 25px;
+    content: url("../images/icon-covid.svg");
+}
+
+.covid-info__subtitle{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.covid-info__confirmed{
+    position: relative;
+    margin-right: 42px;
+    color: #DB0000;
+}
+
+.covid-info__confirmed::before{
+    position: absolute;
+    left: -60px;
+    display: inline-block;
+    margin-right: 17px;
+    content: url("../images/icon-infected.svg");
+}
+
+.covid-info__statistic{
+    display: block;
+    font-weight: 700;
+    color: #000000;
+}
+
+.covid-info__recovered{
+    position: relative;
+    margin-right: 42px;
+    color: #05B135;
+}
+
+.covid-info__recovered::before{
+    display: inline-block;
+    position: absolute;
+    left: -60px;
+    content: url("../images/icon-recovered.svg");
+}
+
+.covid-info__dead{
+    position: relative;
+}
+
+.covid-info__dead::after{
+    position: absolute;
+    top: 0;
+    left: -60px;
+    display: inline-block;
+    content: url("../images/icon-dead.svg");
+}
+/********************** INFO STYLES END ************************/
