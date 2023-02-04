@@ -86,3 +86,112 @@ ul{
 a{
     text-decoration: none;
 }
+
+/********************** HEADER STYLES START ************************/
+.site-header{
+    margin-bottom: 18px;
+    padding-top: 43px;
+    background-color: #F6F6F9;
+    border-top: 4px solid #295093;
+}
+
+.site-header__wrapper--start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.site-header__start{
+    display: flex;
+    align-items: center;
+}
+
+.site-header__logo{
+    margin-right: 23px;
+}
+
+.site-header__currency-list{
+    display: flex;
+}
+
+.site-header__currency-item{
+    margin-right: 25px;
+    color: #7A7A7A;
+}
+
+.site-header__currency--symbol{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #285193;
+}
+
+.site-header__end{
+    display: flex;
+    align-items: center;
+}
+
+.site-header__search-box{
+    width: 38px;
+    height: 40px;
+    margin-right: 21px;
+    background-color: #fff;
+    background-image: url("../images/search-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.site-header__languages-box{
+    margin-right: 23px;
+    padding: 10px 8px 10px 11px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;    
+}
+
+.site-header__languages-img{
+    border-radius: 50%;
+}
+
+.site-header__subscribe{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;    
+    background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+}
+
+.site-header__subscribe-img{
+    margin-right: 7px;
+}
+
+.site-header__wrapper--end{
+    padding: 21px 25px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+}
+
+.sitenav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitenav__link{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;    
+}
+/********************** HEADER STYLES END ************************/
